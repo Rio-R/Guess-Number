@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <style>
+        .container{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .content{
+            text-align: center;
+            
+            width: 600px;
+            height: 300px;
+            background-color: white;
+            border: 5px solid black;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            
+        }
+        button{
+            text-align: center;
+            
+            padding: 10px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: black;
+            background-color: white;
+            transition: 1s;
+            font-weight: bold;
+            font-size: 18px;
+
+        }
+        button:hover{
+            color:white;
+            background-color: black;
+        }
+        p{
+            font-size: 24px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p>GUESS NUMBER <b><i>1 - 10</i></b></p>
+            <p><b>3</b> CHANCE</p>
+
+            <button id="start_button">Start</button>
+        </div>
+        
+    </div>
+
+    <script src="./guessnumber.js"></script>
+</body>
+</html>
